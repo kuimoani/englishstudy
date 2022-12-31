@@ -1,3 +1,0 @@
-# mediadic
-
-Hello world!
