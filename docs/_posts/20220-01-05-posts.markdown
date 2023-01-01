@@ -1,0 +1,10 @@
+---
+layout: 'posts'
+permalink: '/posts2.html'
+target: 'home'
+---
+
+
+bbbbb
+bb
+cccccccccccc

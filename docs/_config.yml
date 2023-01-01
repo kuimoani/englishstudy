@@ -19,17 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Media Dictionary
+author: kuimoani
 email: kuimoani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  미디어로 쉽게 설명하는 영한사전
 baseurl: "/mediadic" # the subpath of your site, e.g. /blog
 url: "https://kuimoani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kuimoani
 github_username:  kuimoani
+rss: rss
 
 markdown: kramdown  # kramdown or GFM
+
+header_pages:
+  - about.markdown
+  - index.markdown
 
 # Build settings
 theme: minima
@@ -47,7 +50,6 @@ theme: minima
 # remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
-  # - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

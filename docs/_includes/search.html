@@ -1,0 +1,21 @@
+<div id="search-bar">
+    <input id="search-input" type="text" placeholder="Search..." />
+    <ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="{{ "/assets/js/jekyll-search.js" | relative_url }}" type="text/javascript"></script>
+<!-- <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script> -->
+
+<script type="text/javascript">
+SimpleJekyllSearch({
+     searchInput: document.getElementById('search-input'),
+     resultsContainer: document.getElementById('results-container'),
+     json: '{{ "/search.json" | relative_url }}',
+     searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+     noResultsText: 'No results found',
+     limit: 10000,
+     fuzzy: false,
+     exclude: ['Welcome']
+});
+</script>

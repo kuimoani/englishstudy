@@ -1,0 +1,33 @@
+body {
+}
+
+#search-bar {
+  display:inline-block;
+}
+
+#search-bar #search-input {
+  width:180px;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+#results-container {
+  position: absolute;
+  background-color: #ffffffee;
+  width:180px;
+  margin: -7px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#results-container li {
+  list-style: none;
+  line-height: 2em;
+}
