@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Media Dictionary
 email: kuimoani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -29,10 +29,25 @@ url: "https://kuimoani.github.io" # the base hostname & protocol for your site, 
 twitter_username: kuimoani
 github_username:  kuimoani
 
+markdown: kramdown  # kramdown or GFM
+
 # Build settings
 theme: minima
+#remote_theme: benbalter/retlab
+#remote_theme: pages-themes/architect@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/dinky@v0.2.0
+# remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: pages-themes/leap-day@v0.2.0
+# remote_theme: pages-themes/merlot@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/modernist@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
+  # - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
