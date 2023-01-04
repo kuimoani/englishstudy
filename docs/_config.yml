@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Media Dictionary
+title: English Study
 author: kuimoani
 email: kuimoani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  미디어로 쉽게 설명하는 영한사전
-baseurl: "/mediadic" # the subpath of your site, e.g. /blog
+  Self study English
+baseurl: "/englishstudy" # the subpath of your site, e.g. /blog
 url: "https://kuimoani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kuimoani
 rss: rss
