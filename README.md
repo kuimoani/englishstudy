@@ -1,3 +1,3 @@
-# Hello
+개인 영어공부 정리 블로그
 
-world!
+<https://kuimoani.github.io/englishstudy/>
